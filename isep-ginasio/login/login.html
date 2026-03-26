@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../frontend/assets/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../frontend/assets/css/estilos.css">
     <!-- favicon -->
-    <link rel="shortcut icon" href="../frontend/assets/img/gym125.png" type="image/png">
+    <link rel="shortcut icon" href="../frontend/assets/images/gym125.png" type="image/png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="../frontend/assets/fontawesome/all.min.css">
     <!-- Google Fonts -->
@@ -20,9 +20,47 @@
     <!-- Bootstrap JS and custom JS -->
 <script src="assets/bootstrap/bootstrap.bundle.min.js"></script> 
 
-<div class="container">
-    <div class="row">
-        <div class="col"></div>
+<div class="container-fluid mt5">
+    <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-6 col-sm-8 col-10">
+            <div class="card">
+                <div>
+
+                <img src="../frontend/assets/images/gym125.png">
+                <h2><strong>ISEP - Ginásio</strong></h2>
+
+                </div>
+        <div class="row">
+                <div class="col">
+                    <!-- Formulário -->
+                     <form action="" method="post">
+                            <div>
+                                <!-- Utilizador -->
+                                 <label for="email">Utilizador</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+
+                            <div>
+                                <!-- Password -->
+                                 <label for="password">Password</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+
+                            <div>
+                                <!-- Submit -->
+                                 <button type="submit">Entrar</button>
+                            </div>
+
+                            <div>
+                                <!-- Erros -->
+                                 <div> Erro: Utilizador não registado </div>
+                            </div>
+                    </form>
+
+                </div>
+        </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
